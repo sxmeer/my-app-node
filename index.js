@@ -6,6 +6,6 @@ app.listen(3200,()=>{
 });
 app.get('/',(req,res)=>{
     res.send({
-        msg: 'page you\'ve requested is not found'
+        msg: 'the page you\'ve requested is not found'
     });
 })
