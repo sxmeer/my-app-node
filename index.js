@@ -1,7 +1,7 @@
 const express = require('express');
 const PORT = process.env.PORT || 8080;
 const app = express();
-app.listen(3200,()=>{
+app.listen(PORT,()=>{
     console.log(`server is connected at port ${PORT}`);
 });
 app.get('/',(req,res)=>{
