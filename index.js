@@ -1,5 +1,5 @@
 const express = require('express');
-const PORT = 3200;
+const PORT = process.env.PORT || 8080;
 const app = express();
 app.listen(3200,()=>{
     console.log(`server is connected at port ${PORT}`);
